@@ -3,21 +3,29 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Realism Programmer | development blog</title>
+  <title>커링의 활용 + 팁 | Realism Programmer | development blog</title>
 
   
   <meta name="author" content="Song Chiwon">
   
 
   
+  <meta name="description" content="이 내용은 함수형 프로그래밍 강의 에서 질문된 것에 대한 답변으로, 공유하면 좋을 내용이라 공개합니다.
 
+Currying1func f1(_ a:Any, _ b: Any, _ c: Any) -&amp;gt; Any
+이 함수를 커링하면1func f2(_ a:Any) -&amp;gt; (">
+  
+
+  
+  
+  <meta name="keywords" content="FP, swift, Currying, Tip">
   
 
   <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  
+  <meta property="og:title" content="커링의 활용 + 팁"/>
 
   <meta property="og:site_name" content="Realism Programmer"/>
 
@@ -57,12 +65,11 @@
 </header>
 
     <main class="site-main posts-loop">
-    
-  <article>
+    <article>
 
   
     
-    <h3 class="article-title"><a href="/2018/10/01/currying-tip/"><span>커링의 활용 + 팁</span></a></h3>
+    <h3 class="article-title"><span>커링의 활용 + 팁</span></h3>
     
   
 
@@ -121,27 +128,38 @@
     </div>
 
     
-    <div class="article-meta pull-right">
-      <span>
-        <i class="icon-comments"></i>
-        <span>
-          <a href="/2018/10/01/currying-tip/#comment">Comments</a>
-        </span>
-      </span>
-    </div>
-    
   </div>
 </article>
 
+  
+	<section id="comments" class="comment">
+	  <div id="disqus_thread">
+	  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	  </div>
+	</section>
+
+	<script type="text/javascript">
+	var disqus_shortname = 'iamchiwon-dev-blog';
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	(function(){
+	  var dsq = document.createElement('script');
+	  dsq.type = 'text/javascript';
+	  dsq.async = true;
+	  dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	}());
+	</script>
 
 
 
-<nav class="pagination">
-  
-  
-  <a href="/page/2/" class="pagination-next">Next</a>
-  
-</nav>
+
+
     </main>
 
     <footer class="site-footer">
